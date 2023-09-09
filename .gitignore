@@ -1,0 +1,50 @@
+# Ignore general system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Ignore the Django development server's default port
+*.pyc
+
+# Ignore Django database configuration
+*.sqlite3
+
+# Ignore local development settings file
+settings_local.py
+
+# Ignore media and static files (assuming they are served separately)
+media/
+theme/
+
+# Ignore virtual environment files
+venv/
+env/
+env_bak/
+
+stabledf/
+
+# Ignore logs and temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.db
+*.cache
+*.settings
+
+# Ignore compiled translations
+locale/
+*.mo
+
+# Ignore pip generated files
+pip-log.txt
+
+# Ignore any sensitive or secret information
+secret_key.txt
+*.env
